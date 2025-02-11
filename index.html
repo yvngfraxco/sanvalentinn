@@ -6,22 +6,29 @@
     <title>¿Quieres ser mi San Valentín?</title>
     <style>
         body { text-align: center; font-family: Arial, sans-serif; margin-top: 50px; }
+        img { width: 300px; border-radius: 10px; }
         button { font-size: 20px; margin: 10px; padding: 10px; cursor: pointer; }
     </style>
 </head>
 <body>
-    <h1>¿Quieres ser mi San Valentín? ❤️</h1>
+ </html>
+   <h1>¿Quieres ser mi San Valentín? </h1>
+    
+    <!-- Imagen desde URL -->
+    <img src="https://images.app.goo.gl/AfEzH9GtCdzMH2VA6" alt="Imagen de San Valentín">
+
+    <br>
+
     <button onclick="respuesta(true)">Sí</button>
     <button onclick="respuesta(false)">No</button>
 
     <script>
         function respuesta(acepta) {
             if (acepta) {
-                window.location.href = "video_si.html"; // Cambia a tu video o imagen
+                window.location.href = "video_si.html"; // Cambia a tu video o imagen de respuesta
             } else {
-                window.location.href = "video_no.html"; // Cambia a tu video o imagen
+                window.location.href = "video_no.html"; // Cambia a tu video o imagen de respuesta
             }
         }
     </script>
 </body>
-</html>
